@@ -20,14 +20,8 @@
   "peerDependencies": {},
   "husky": {
     "hooks": {
-      "pre-commit": "tsdx lint"
+      "pre-commit": "tsdx lint --fix src test"
     }
-  },
-  "prettier": {
-    "printWidth": 80,
-    "semi": true,
-    "singleQuote": true,
-    "trailingComma": "es5"
   },
   "name": "quangjs",
   "author": "jessekrubin",
@@ -37,5 +31,21 @@
     "tsdx": "^0.13.2",
     "tslib": "^2.0.0",
     "typescript": "^3.9.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessekrubin/quangjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jessekrubin/quangjs/issues"
+  },
+  "homepage": "https://github.com/jessekrubin/quangjs#readme",
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "arrowParens": "always",
+    "trailingComma": "es5"
   }
 }
