@@ -1,3 +1,4 @@
-import * as quangjs from './quangjs';
-export * as quangjs from './quangjs';
+import * as quangjs from "./quangjs.js";
+
+export * as quangjs from "./quangjs.js";
 export default quangjs;

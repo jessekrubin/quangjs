@@ -1,0 +1,24 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    # =============
+    # USING GROUPS:
+    # =============
+    # groups:
+    #   dev-dependencies:
+    #     patterns:
+    #       - "*"
+    #   dependencies:
+    #     patterns:
+    #       - "*"
+
+    # reviewers:
+    #   - "jessekrubin"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"

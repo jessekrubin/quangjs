@@ -1,0 +1,27 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`tests > test 1`] = `
+{
+  "college": "Carleton College",
+  "interests": [
+    "bed_and_breakfast",
+    "squash",
+    "loafers",
+    "vnecks",
+    "math/cs",
+    "rock_climbing",
+    "javascript",
+  ],
+  "linkedin": "linkedin.com/in/quangtran20",
+  "name": "Quang",
+  "personality": "reserved_yet_gregarious",
+  "talents": [
+    "javascript",
+    "clothing",
+    "being_moderately_cat_like",
+    "squash",
+    "picking_shoes",
+    "multi_lingual_2_say_the_least",
+  ],
+}
+`;
